@@ -1,6 +1,3 @@
-import java.util.ArrayDeque
-import java.util.Deque
-import java.util.NoSuchElementException
 fun main() {
     fun part1(input: List<String>): Int {
         return findMarker(input.first(), distinctCharacters = 4)
